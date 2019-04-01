@@ -7,11 +7,13 @@ public class arrayList {
 		
 		ArrayList<Integer> alist = new ArrayList<Integer>();
 		
+		// Add Elements
 		alist.add(20);
 		alist.add(30);
 		alist.add(40);
 		alist.add(50);
 		alist.add(0,10); // Add element at specified index
+		
 		System.out.printf("Size of the arrayList is %d\n", + alist.size());
 		
 		// Processing all the elements in ArrayList
@@ -22,27 +24,28 @@ public class arrayList {
 		System.out.println(alist);
 		System.out.println("\n");
 		
-		//Iterator
+		// Using Iterator
 		Iterator<Integer> iter = alist.iterator();
 		while(iter.hasNext()) {			
 			System.out.println(iter.next());			
 		}		
 		System.out.println("\n");
 		
-		//ListIterator
+		// Using ListIterator
 		ListIterator<Integer> new_iter = alist.listIterator();
 		while(new_iter.hasNext()) {			
 			System.out.println(new_iter.next());			
 		}
-		//remove
+		
+		// Remove an element
 		alist.remove(0);
 		
-		//find and remove an element
+		// Find and remove an element
 		alist.remove(alist.indexOf(20));
 		
 		alist.add(0,10);
 		
-		//update
+		// Update
 		alist.set(0, 20);
 		
 		System.out.println("\n");
