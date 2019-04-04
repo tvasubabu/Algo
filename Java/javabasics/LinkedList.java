@@ -1,6 +1,6 @@
 package javabasics;
 
-import java.util.*;
+// import java.util.*;
 
 /*
  * NOTE : java.util.LinkedList is internally implemented using 
