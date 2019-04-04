@@ -1,4 +1,5 @@
 
+package javabasics;
 // All the collections are defined in java.util package
 import java.util.*;
 
@@ -6,6 +7,8 @@ public class arrayList {
 	public static void main(String[] args) {
 		
 		ArrayList<Integer> alist = new ArrayList<Integer>();
+		List<Integer> blist = Arrays.asList(1,2,3,4,5);
+		System.out.println(blist);
 		
 		// Add Elements
 		alist.add(20);
