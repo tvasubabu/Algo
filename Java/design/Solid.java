@@ -77,7 +77,7 @@ public class Solid {
 	{
 		// 5th Principal, object creation is handled here , rather than in Booking class
 		Booking b1 = new Booking(new Member(1, "Alpha"), new cashPayment());
-		Booking b2 = new Booking(new Member(1, "Alpha"), new cardPayment());
+		Booking b2 = new Booking(new Member(2, "Beta"), new cardPayment());
 		b1.savePaymentDetails();
 		b2.savePaymentDetails();
 	}
